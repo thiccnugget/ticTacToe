@@ -8,7 +8,7 @@ function App() {
 
   const [board, setBoard] = useState(Array.from({length: 9}, () => ""))
   const [turn, setTurn] = useState(false)
-  const [winner, setWinner] = useState(""||"X"||"O");
+  const [winner, setWinner] = useState("");
   const [colored, setColored] = useState(Array.from({length: 3}, () => 10));
 
   const reset = () => {
